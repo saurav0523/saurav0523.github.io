@@ -12,8 +12,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(14, 17, 22);
-  color: rgba(255, 255, 255, 0.6);
+  background-color: #efede9;
+  color: #656666;
   font-size: 1.2rem;
 }
 
@@ -22,7 +22,7 @@ h2 {
   font-family: 'Righteous', cursive;
   font-size: 3rem;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
@@ -35,7 +35,7 @@ h3 {
 hr {
   margin-top: 50px;
   border-width: 0;
-  background-color: #5cc99f;
+  background-color: #7c405c;
   height: 5px;
   width: 50px;
 }
@@ -48,9 +48,10 @@ nav {
   width: 100%;
   min-width: 663px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: #ffffff !important;
   padding-top: 20px;
   z-index: 1;
+  border-bottom: #000000;
 }
 
 nav ul {
@@ -69,12 +70,12 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #5cc99f;
+  color: #7c405c;
 }
 
 .logo {
@@ -86,12 +87,12 @@ nav a:hover {
 }
 
 .modify-logo {
-  width: 65px;
-  height: 50px;
+  width: 60px;
+  height: 43px;
 }
 
 a {
-  color: rgb(92, 201, 159);
+  color: #7c405c;
 }
 
 ul li::marker {
@@ -114,9 +115,9 @@ ul li::marker {
   border-radius: 50px 50px 50px 50px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(92, 201, 159);
+  border-color: #7c405c;
   background-color: transparent;
-  color: rgb(92, 201, 159);
+  color: #7c405c;
   line-height: 18px;
   margin-top: 40px;
   transition: 299ms;
@@ -126,9 +127,9 @@ ul li::marker {
 }
 
 .button-modify:hover {
-  border-color: rgb(92, 201, 159);
-  background-color: rgb(92, 201, 159);
-  color: rgb(14, 17, 22);
+  border-color: #7c405c;
+  background-color: #7c405c;
+  color: #efede9;
 }
 
 .heading {
@@ -140,8 +141,8 @@ ul li::marker {
 @media (max-width: 1054px) {
   /* Making Header */
   header {
-    background-color: rgb(0, 0, 0);
-    color: #fff;
+    background-color: #ffffff;
+    color: #ffffff;
     text-align: center;
     padding: 2rem;
     border-radius: 5px;
@@ -152,8 +153,8 @@ ul li::marker {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(14, 17, 22);
-    color: rgba(255, 255, 255, 0.6);
+    background-color: #efede9;
+    /* color: rgba(255, 255, 255, 0.6); */
     font-size: 1.1rem;
   }
 
@@ -172,7 +173,7 @@ ul li::marker {
   .modify-img {
     float: left;
     background-color: #131F22;
-    box-shadow: 30px 30px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 30px 30px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
     margin-bottom: 100px;
   }
@@ -213,17 +214,17 @@ ul li::marker {
   .interest-items {
     width:auto;
     height: auto;
-    min-height: 20rem;
+    /* min-height: 20rem; */
     margin:0rem 5rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 40px;
     padding-right: 40px;
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
   }
 
@@ -272,8 +273,8 @@ ul li::marker {
     margin: 1rem 1rem;
     width: calc(100% - 2rem);
     /* height: 200px; */
-    background-color: black;
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    background-color: white;
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
   }
 
@@ -312,9 +313,9 @@ ul li::marker {
     margin: 0rem 5rem;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: black;
+    background-color: white;
   
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
   }
 
@@ -351,7 +352,7 @@ ul li::marker {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: #ffffff;
   }
 
   .connect-items {
@@ -387,12 +388,13 @@ ul li::marker {
 
   /* Making Header */
   header {
-    background-color: rgb(0, 0, 0);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     text-align: right;
     padding: 2rem;
     border-radius: 5px;
     font-size: 18px;
+    border-bottom: #000000;
   }
 
   /* Image modify */
@@ -405,8 +407,9 @@ ul li::marker {
 
   .modify-img {
     background-color: #131F22;
-    box-shadow: 30px 30px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 30px 30px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
+    /* position: relative; */
   }
 
   /* About me */
@@ -415,13 +418,16 @@ ul li::marker {
     display: flex;
     margin: 0 auto;
     max-width: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 100px;
   }
   
   .aboutme-col-img {
+    padding-top: 50px;
     flex: 40%;
     padding-left: auto;
+    display: flex;
+    justify-content: center;
   }
 
   .aboutme-col-txt-container {
@@ -448,12 +454,12 @@ ul li::marker {
     margin-top: 0;
     margin: auto 5rem;
     width: 100%;
-    background-color: black;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 40px;
     padding-right: 40px;
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
   }
 
@@ -500,8 +506,8 @@ ul li::marker {
     margin: 2rem 1rem;
     width: 100%;
     height: 10rem;
-    background-color: black;
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    background-color: white;
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
     padding: 60px 10px 0px 10px;
   }
@@ -536,9 +542,9 @@ ul li::marker {
     margin: 0rem 5rem;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: black;
+    background-color: white;
   
-    box-shadow: 20px 20px 0px 0px rgba(254, 229, 181, 0.05);
+    box-shadow: 20px 20px 0px 0px #e3e2df;
     border-radius: 20px 0px 20px 0px;
   }
 
@@ -577,7 +583,7 @@ ul li::marker {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: #ffffff;
   }
 
   .connect-items {
